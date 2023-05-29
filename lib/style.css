@@ -1,0 +1,311 @@
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*עיצוב עמוד בית */
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+/*הגדרת לוגו*/
+.classic .cover__details-logo, p, li, h1, h2, h3, h4, h5, h6, .block-list , .blocks-accordion__header, span,
+.flashcard-side__description{
+    direction: rtl !important;
+}
+
+
+/*שינוי גודל כותרות בתוכן עניינים*/
+.overview-list__section-title .overview-list-item__title{
+    font-size: 2rem;
+}
+
+/*עיצוב כותרות הסקשיינים*/
+.overview-list__section-title {
+    border-bottom: 0.1rem solid #F76F14;
+    color: black;
+    font-size: 1.5rem;
+}
+
+/*עיצוב שמות הנושאים*/
+.overview-list-item__title{
+    color: #064F8D;
+    font-family: OSLuizRound;
+}
+
+.classic .cover__header-content-authors{
+    display: none;
+}
+
+
+.classic .cover__header-content-action-link:last-child {
+    margin-right: 0;
+    background-color: #F76F14;
+    color: white;
+}
+
+
+/*עיצוב הנושאים*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*עיצוב תפריט נפתח*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+.classic .nav-sidebar__outline-list-item {
+    text-align: right;
+}
+
+a.nav-sidebar-header__title {
+    direction: rtl;
+    text-align: right !important;
+}
+
+.classic .nav-sidebar-header__title {
+    color: var(--color-nav-sidebar-text);
+    display: inline-block;
+    font-family: var(--font-family-head);
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 3.3rem;
+    text-decoration: none;
+    text-align: right;
+}
+
+.nav-sidebar-header__progress-text {
+    direction: rtl;
+    font-family: var(--font-family-body) !important;
+    font-size: 2rem;
+}
+
+.classic .nav-sidebar-search__input {
+    background-color: #fff;
+    border-radius: 10rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding: 0.8rem 3.8rem 0.9rem 3.6rem;
+    direction: rtl;
+    text-align: right;
+}
+
+
+.classic .nav-sidebar__outline-section-item-link-icon {
+    display: none;
+}
+
+.nav-sidebar-search__input{
+    font-family: var(--font-family-body) !important;
+}
+
+.nav-control__button{
+    background-color: transparent;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*עיצוב כללי עמודי תוכן*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+
+/*עיצוב האייקונים בעמוד הראשי*/
+.overview-list-item__icon{
+    color: #5DC4F1;
+    display: none;
+}
+
+
+/*העלמת קו הטקסט בתמונות*/
+.block-image--overlay .block-image__paragraph:before, .classic .lesson-header-wrap--mobile .lesson-header__top-wrap:after, .lesson-header__top-wrap:after{
+    display: none;
+}
+
+/*עיצוב כפתור מעבר לעמוד הבא*/
+.continue-btn{
+    border-radius: 10px !important;
+}
+
+/*הסתרת ה-HEADER של עמודי התוכן*/
+.page__header-limit, .page__header{
+    display: none;
+}
+
+.classic .lesson-nav--full .lesson-nav__link-text{
+    font-size: 2rem;
+}
+
+.block-image__container {
+    direction: rtl;
+}
+
+.block-image {
+    padding: 0 0; 
+}
+
+.block-divider__wrap:before{
+    border-color: #F76F14;
+}
+
+.block-image--text-aside .block-image__image{
+    max-width: 80%;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*עיצוב כרטיסיות*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+/*עיצוב מבנה הכרטיסייה*/
+.block-flashcards.bg--type-accent .flashcard-side, .block-flashcards.bg--type-color .flashcard-side, .block-flashcards.bg--type-gray .flashcard-side, .block-flashcards.bg--type-gray .flashcard-side.block-card.bg--range-light, .block-flashcards.bg--type-light .flashcard-side, .block-flashcards.bg--type-light .flashcard-side.block-card.bg--range-light, .block-flashcards.bg--type-tint .flashcard-side, .flashcard-side--legacy, .flashcard-side--legacy.block-card.bg--range-light, .flashcard-side.block-card--white, .flashcard-side.block-card--white.block-card.bg--range-light{
+    border-radius: 25px;
+    background-color: #FFD5B8;
+    
+}
+
+/*עיצוב טקסט הכרטיסיה*/
+.flashcard-side__content--front:not(.flashcard-side__content--fullimage){
+    border-top:none;
+    color: #064F8D !important;
+}
+
+/*עיצוב פונט הכרטיסייה*/
+.flashcard-side__content :not(img):not(.flashcard-side-flip__tooltip) {
+    color: #064F8D !important;
+}
+
+/*עיצוב כפתור היפוך הכרטיסייה*/
+.flashcard-side-flip__btn{
+    background-color: #FFD5B8;
+}
+
+.block-flashcards__wrapper{
+    direction: rtl;
+}
+
+.flashcard-side__content, .flashcard-side__content :not(img):not(.flashcard-side-flip__tooltip){
+    direction: rtl;
+    text-align: right;
+    font-size: 22px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*עיצוב אקורדיון*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+/*עיצוב הכותרות */
+.blocks-accordion__header{
+    text-align: right;
+    color: #064F8D;
+    background-color: #FFD5B8;
+    border-color: transparent;
+    font-family: var(--font-family-ui) !important;
+    box-shadow: none;
+}
+
+.blocks-accordion__toggler{
+    color: #064F8D;
+}
+
+.blocks-accordion__content--visible {
+    background-color: #ffd5B8;
+    border-color: transparent;
+}
+
+
+div.blocks-accordion__wrapper.blocks-accordion__wrapper--legacy:first-child .blocks-accordion__item--legacy:first-child button.blocks-accordion__header{ 
+    border-radius: 25px 25px 0px 0px !important;
+}
+
+/* div.blocks-accordion__wrapper.blocks-accordion__wrapper--legacy:last-child .blocks-accordion__item--legacy:last-child button.blocks-accordion__header{ 
+    border-radius: 0px 0px 25px 25px !important;
+} */
+
+
+.blocks-accordion__item--legacy:first-child{
+    border-top: none;
+}
+
+.blocks-accordion__wrapper{
+    box-shadow: none;
+    border: none;
+}
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*שינוי פונטים */
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+.nav-sidebar__outline-section-item__link,
+ span.nav-sidebar__outline-section-toggle-text,
+ .lesson-nav__link-text.brand--ui,
+ .continue-btn.brand--ui,
+ .cover__header-content-action-link-text,
+ .brand--ui.overview-list__section-title,
+ .overview-list-item__title
+ {
+    font-family: var(--font-family-body) !important;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*עיצוב הרשימות*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+/*עיצוב בולט הרשימות*/
+circle{
+    color: #064F8D;
+}
+
+.block-list__content__left {
+    right: 0;
+}
+
+.block-list__bullet{
+    left: 5.7rem;
+}
+
+.block-list__number {
+    right: -5rem;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/*עיצוב קרוסלה*/
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+
+
+.block-list__container {
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 81rem;
+    padding-left: 1rem;
+    padding-right: 5rem;
+}
+
+
+div.block-image__paragraph p{
+    margin: 0 !important;
+}
+
+
+/*כפתור יציאה מהתוצר*/
+
+.blocks-button__container {
+    text-align: right;
+    direction: rtl;
+}
+
+span.blocks-button__button{
+    font-family: var(--font-family-body) !important;
+}
+
+
+.blocks-button__description.brand--head.brand--linkColor.brand--linkColor {
+    text-align: right;
+    padding-right: 18px;
+}
